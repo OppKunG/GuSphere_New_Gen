@@ -4,12 +4,9 @@
     margin-top: 50px;
 }
 
-.bg {
-    color: gray;
-}
-
 p.bio {
     text-align: center;
+    text-shadow: 2px 2px white;
 }
 
 hr {
@@ -20,9 +17,12 @@ hr {
     margin-top: 10px;
 }
 
+
+/* Title Pic */
+
 img.logo {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -36,16 +36,22 @@ h1.name {
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
+    text-shadow: 2px 2px white;
 }
 
 span.slogan {
     display: block;
     text-align: center;
+    font-weight: bold;
     text-transform: uppercase;
-    font-size: 14px;
-    color: rgba(51, 51, 51, 0.7);
+    font-size: 20px;
+    color: rgba(29, 29, 29, 0.753);
     margin-bottom: 35px;
+    text-shadow: 2px 2px white;
 }
+
+
+/* Social Icon */
 
 .social-img ul {
     margin: 0;
@@ -56,7 +62,7 @@ span.slogan {
 
 .social-img ul li {
     display: inline;
-    background: rgba(204, 204, 204, 0.5);
+    background: rgba(204, 204, 204, 0.938);
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -64,7 +70,7 @@ span.slogan {
 }
 
 .social-img ul li:hover {
-    background: #ccc;
+    background: white;
 }
 
 h5 {
@@ -73,7 +79,11 @@ h5 {
     margin-top: 50px;
     margin-bottom: 0px;
     text-transform: uppercase;
+    text-shadow: 2px 2px white;
 }
+
+
+/* Exp row 1 */
 
 .work {
     width: 600px;
@@ -82,6 +92,9 @@ h5 {
     /* margin-bottom: 10px; */
 }
 
+
+/* Exp row 2 */
+
 .work2 {
     width: 500px;
     height: 400px;
@@ -89,8 +102,20 @@ h5 {
     margin-bottom: 300px;
 }
 
+
+/* Contact Me */
+
+.row {
+    font-size: 50px;
+    text-shadow: 2px 2px white;
+}
+
+
+/* All Rights Reserved */
+
 .footer {
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0;
     color: rgba(51, 51, 51, 0.5);
+    text-shadow: 2px 2px white;
 }
